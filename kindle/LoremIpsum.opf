@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+	<metadata>
+		<dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+			<dc:Title>Lorem Ipsum</dc:Title>
+			<dc:Language>en</dc:Language>
+			<dc:Creator>Your Name</dc:Creator>
+			<dc:Copyrights>Your Name</dc:Copyrights>
+			<dc:Publisher>Your Name</dc:Publisher>
+			<dc:date>2015-09-28</dc:date>
+			<dc:description>Duis condimentum ultricies risus id placerat.</dc:description>
+			<x-metadata>
+				<EmbeddedCover>images/cover.jpg</EmbeddedCover>
+			</x-metadata>
+		</dc-metadata>
+	</metadata>
+	<manifest>
+		<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="title-page" media-type="text/x-oeb1-document" href="title.html"></item>
+		<item id="copyright-page" media-type="text/x-oeb1-document" href="copyright.html"></item>
+		<item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
+		<item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+		<item id="text" media-type="text/x-oeb1-document" href="text.html"></item>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="title-page" linear="yes"/>
+		<itemref idref="copyright-page" linear="yes"/>
+		<itemref idref="content" linear="yes"/>
+		<itemref idref="text" linear="yes"/>
+	</spine>
+	<guide>
+		<reference type="title-page" title="Text" href="title.html"/>
+		<reference type="copyright-page" title="&copy; 2015 Your Name" href="copyright.html"/>
+		<reference type="toc" title="Table of Contents" href="toc.html"/>
+		<reference type="text" title="Book" href="text.html"/>
+	</guide>
+</package>

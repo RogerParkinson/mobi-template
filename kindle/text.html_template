@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+<title>Lorem Ipsum</title>
+<link type="text/css" href="styles.css" rel="Stylesheet"/>
+<link type="text/css" href="kf8.css" media="amzn-kf8" rel="Stylesheet"/>
+<link type="text/css" href="mobi.css" media="amzn-mobi" rel="Stylesheet"/>
+</head>
+<body><h1 id="a__Chapter_One">Chapter One</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus non diam ac scelerisque. Quisque nec eleifend nisl, eu egestas justo. Mauris velit urna, consectetur quis maximus imperdiet, pharetra nec erat. Sed sit amet viverra est. Nulla commodo non urna ut faucibus. Maecenas ultricies orci vitae dolor consectetur convallis. Nulla at arcu nec diam ultrices <span class="italic">feugiat</span> a non lorem. Cras nec velit finibus, venenatis sapien consequat, tempus libero. Aenean convallis consequat eros, vel dictum purus tincidunt eu.</p>
+<p class="section">*</p>
+<p>Quisque tortor odio, cursus at scelerisque non, dictum sed orci. Ut accumsan quis risus ut gravida. Praesent non odio a nisl luctus rutrum vitae vitae est. Curabitur lectus est, vestibulum ut efficitur non, tincidunt vel enim. Morbi <span class="italic">venenatis turpis <span class="normal">non</span> purus semper maximus</span>. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend, sem ut blandit faucibus, mauris ante porta sem, id tristique dui arcu eget ligula. </p>
+
+<h1 id="a__Authors_Note">Author’s Note</h1>
+<p>Vestibulum tristique fringilla semper. Praesent consequat et lectus vel porta. Duis venenatis maximus nisl eget tincidunt. Pellentesque sodales ligula non rhoncus laoreet. Integer et arcu quis erat fringilla tempor eu sit amet urna. Aliquam erat volutpat. Phasellus commodo sem id risus bibendum commodo. Integer at leo a elit feugiat vehicula. Vestibulum ac mauris accumsan, egestas enim sed, porta turpis. Vestibulum dignissim, est vel feugiat gravida, nisl ex blandit enim, semper volutpat dolor velit eu libero. </p>
+
+<h1 id="a__About_the_Author">About the Author</h1>
+<p>Fusce aliquet iaculis hendrerit. Nullam ornare quam metus, sit amet fermentum erat ullamcorper eget. Nunc consectetur suscipit eros, sed posuere elit malesuada eget. Sed eget est eu nisi elementum finibus a at turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget quam fringilla, aliquam leo quis, porttitor arcu. Integer consequat ex sollicitudin massa consectetur, et ultricies ante tristique. Praesent et tempus nibh. </p>
+</body></html>

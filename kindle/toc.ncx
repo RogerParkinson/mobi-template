@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" 
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+  </head>
+  <docTitle>
+    <text>Lorem Ipsum</text>
+  </docTitle>
+<navMap>
+<navPoint id="navpoint-1" playOrder="1"><navLabel><text>Lorem Ipsum</text></navLabel><content src="title.html#tid1"/></navPoint>
+<navPoint id="navpoint-2" playOrder="2"><navLabel><text>&copy; 2015 Your Name</text></navLabel><content src="copyright.html#cid1"/></navPoint>
+<navPoint id="navpoint-3" playOrder="3"><navLabel><text>Table of Contents</text></navLabel><content src="toc.html#toc"/></navPoint>
+<navPoint id="navpoint-4" playOrder="4"><navLabel><text>Chapter One</text></navLabel><content src="text.html#a__Chapter_One"/></navPoint>
+<!-- add your chapters here -->
+<navPoint id="navpoint-32" playOrder="32"><navLabel><text>Author’s Note</text></navLabel><content src="text.html#a__Authors_Note"/></navPoint>
+<navPoint id="navpoint-34" playOrder="34"><navLabel><text>About the Author</text></navLabel><content src="text.html#a__About_the_Author"/></navPoint>
+</navMap>
+</ncx>
