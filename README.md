@@ -7,7 +7,7 @@ template directory for building a mobi file suitable for Kindle ebooks
 * Save your file as html, eg text.html, into the top level directory (ie the one with sed.sed in it).
 * run sed against your text.html ie *sed -f sed.sed myfile.html>t.html* this uses the edit commands in sed.sed to bulk edit the file. You may need to modify sed.sed for your use depending on what styles/format options you end up with in your text.html. The idea is to get a clean html file in t.html.
 * copy t.html to the kindle directory. Rename it to text.html.
-* delete all the header stuff in this new text.html, everything above </body>, and replace it with the header in text.html_template.
+* delete all the header stuff in this new text.html, everything above \</body\>, and replace it with the header in text.html_template.
 * Check your class="xxx" entries in text.html to make sure they match up with those in styles.css. You can open text.html in your browser to see how it looks.
 * Edit toc.ncx and add your chapters in there. Make sure each chapter has an id="xxx" in text.html and that it matches up with the pointers in this file (src=xxx).
 * Edit toc.html and nav.html and add the same information. You probably only need two of these three files but once you have done one it is simple enough to make both the other two.
